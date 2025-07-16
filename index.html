@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF‑8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="app.css" />
+  <title>Quiz</title>
+</head>
+<body>
+  <div class="container">
+    <!-- question text -->
+    <h2 id="question" class="question hide"></h2>
+
+    <!-- answers -->
+    <div id="answer-buttons" class="btn-grid hide"></div>
+
+    <!-- controls -->
+    <div class="controls">
+      <button id="start-btn" class="btn control-btn">Start</button>
+      <button id="next-btn" class="btn control-btn hide">Next</button>
+    </div>
+
+    <!-- score -->
+    <p class="score">Score: <span id="right-answers">0</span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
